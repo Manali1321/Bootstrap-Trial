@@ -1,0 +1,17 @@
+.bg-dark {
+  background-color: black !important;
+}
+body::before {
+  display: block;
+  content: "";
+  height: 56px;
+}
+#map {
+  height: 100%;
+  border-radius: 10px;
+}
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
